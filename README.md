@@ -43,21 +43,21 @@ on:
 
 jobs:
   tests:
-    uses: CybotTM/typo3-docs-ci-workflows/.github/workflows/php-tests.yml@main
+    uses: netresearch/typo3-docs-ci-workflows/.github/workflows/php-tests.yml@main
     with:
       php-versions: '["8.2", "8.3", "8.4"]'
       test-unit-command: 'make test-unit'
 
   quality:
-    uses: CybotTM/typo3-docs-ci-workflows/.github/workflows/php-quality.yml@main
+    uses: netresearch/typo3-docs-ci-workflows/.github/workflows/php-quality.yml@main
     with:
       php-version: '8.2'
 
   backport:
-    uses: CybotTM/typo3-docs-ci-workflows/.github/workflows/backport.yml@main
+    uses: netresearch/typo3-docs-ci-workflows/.github/workflows/backport.yml@main
 
   docs:
-    uses: CybotTM/typo3-docs-ci-workflows/.github/workflows/docs-render.yml@main
+    uses: netresearch/typo3-docs-ci-workflows/.github/workflows/docs-render.yml@main
 ```
 
 ### Inputs
@@ -80,7 +80,7 @@ All actions are SHA-pinned to verified commits. Current pins:
 ## Status
 
 Proposed for adoption by the TYPO3-Documentation organization.
-Currently maintained under [CybotTM](https://github.com/CybotTM) for
+Currently maintained under [netresearch](https://github.com/netresearch) for
 evaluation and testing.
 
 ## License
