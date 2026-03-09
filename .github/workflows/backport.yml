@@ -13,6 +13,9 @@ permissions:
 
 jobs:
   backport:
+    permissions:
+      contents: write
+      pull-requests: write
     name: Backport
     runs-on: ubuntu-latest
     if: >

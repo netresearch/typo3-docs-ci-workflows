@@ -44,6 +44,8 @@ permissions:
 
 jobs:
   quality:
+    permissions:
+      contents: read
     name: Quality
     runs-on: ubuntu-latest
     steps:

@@ -12,6 +12,8 @@ permissions:
 
 jobs:
   render:
+    permissions:
+      contents: read
     name: Render Documentation
     runs-on: ubuntu-latest
     steps:

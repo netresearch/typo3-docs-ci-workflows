@@ -32,6 +32,8 @@ permissions:
 
 jobs:
   tests:
+    permissions:
+      contents: read
     name: "Tests (PHP ${{ matrix.php }})"
     runs-on: ubuntu-latest
     strategy:
