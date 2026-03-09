@@ -80,8 +80,7 @@ All actions are SHA-pinned to verified commits. Current pins:
 ## Status
 
 Proposed for adoption by the TYPO3-Documentation organization.
-Currently maintained under [netresearch](https://github.com/netresearch) for
-evaluation and testing.
+Maintained by [Netresearch](https://github.com/netresearch), proposed for adoption by the TYPO3-Documentation organization.
 
 ## License
 
