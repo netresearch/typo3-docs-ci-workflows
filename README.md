@@ -79,7 +79,6 @@ All actions are SHA-pinned to verified commits. Current pins:
 
 ## Status
 
-Proposed for adoption by the TYPO3-Documentation organization.
 Maintained by [Netresearch](https://github.com/netresearch), proposed for adoption by the TYPO3-Documentation organization.
 
 ## License
