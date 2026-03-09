@@ -7,10 +7,6 @@ on:
         type: string
         default: 'backport *'
 
-permissions:
-  contents: write
-  pull-requests: write
-
 jobs:
   backport:
     permissions:

@@ -39,9 +39,6 @@ on:
         type: string
         default: 'local'
 
-permissions:
-  contents: read
-
 jobs:
   quality:
     permissions:
