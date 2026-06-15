@@ -9,6 +9,9 @@ on:
 jobs:
   gitleaks:
     uses: netresearch/.github/.github/workflows/gitleaks.yml@main
+    permissions:
+      contents: read
+      security-events: write
     secrets:
       GITLEAKS_LICENSE: ${{ secrets.GITLEAKS_LICENSE }}
 
