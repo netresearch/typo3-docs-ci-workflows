@@ -20,7 +20,7 @@ jobs:
       contains(toJson(github.event.pull_request.labels), 'backport')
     steps:
       - name: Backport
-        uses: korthout/backport-action@66065406958f46e82238fd59546f5a99e69e22aa # v4.5.2
+        uses: korthout/backport-action@2e830a1d0b8269505846ddd407a70876913ad1f8 # v4.6.0
         with:
           label_pattern: "${{ inputs.label-pattern }}"
           merge_method: "none"
